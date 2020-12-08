@@ -1,6 +1,6 @@
 package streams;
 
-public class EmployeeVO {
+public class EmployeeVO implements Comparable<EmployeeVO>{
 
 	private int employeeId;
 	private String firstName;
@@ -129,4 +129,11 @@ public class EmployeeVO {
 
 	}
 
+//	public int compareTo(EmployeeVO o) {
+//		return o.salary - this.salary;
+//	}
+	
+	public int compareTo(EmployeeVO e) {
+		return (this.firstName.compareTo(e.firstName));
+	}
 }

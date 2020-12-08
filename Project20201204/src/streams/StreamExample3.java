@@ -58,6 +58,8 @@ public class StreamExample3 {
 		.getAsDouble();
 		System.out.println("평균 : " + avg);
 		
+		
+		
 	}
 	
 

@@ -43,6 +43,8 @@ public class StreamExample5 {
 				.average();
 		
 		System.out.println("평균 : " + avg.orElse(0.0));	// orElse : in the average()	
+		
+		
 		//or Else(0,0) : 값이 없으면 0.0으로 대체한다
 
 //		avg.ifPresent(new DoubleConsumer() {
